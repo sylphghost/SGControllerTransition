@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0708B05820720DDB00272D0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708B05720720DDB00272D0A /* AppDelegate.m */; };
+		0708B05B20720DDB00272D0A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708B05A20720DDB00272D0A /* FirstViewController.m */; };
+		0708B05E20720DDB00272D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0708B05C20720DDB00272D0A /* Main.storyboard */; };
+		0708B06020720DDD00272D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0708B05F20720DDD00272D0A /* Assets.xcassets */; };
+		0708B06320720DDD00272D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0708B06120720DDD00272D0A /* LaunchScreen.storyboard */; };
+		0708B06620720DDD00272D0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708B06520720DDD00272D0A /* main.m */; };
+		0708B07020720DDD00272D0A /* SGControllerTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708B06F20720DDD00272D0A /* SGControllerTransitionTests.m */; };
+		0708B07B20720DDD00272D0A /* SGControllerTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708B07A20720DDD00272D0A /* SGControllerTransitionUITests.m */; };
+		0775D905207257E600D83727 /* avatar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0775D904207257E600D83727 /* avatar.jpeg */; };
+		0775D90C20734B7C00D83727 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775D90B20734B7C00D83727 /* SecondViewController.m */; };
+		FC3DC2524EF180F01847F8FE /* Pods_SGControllerTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1D6CDFC2BC3045CBEFF5A9 /* Pods_SGControllerTransition.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0708B06C20720DDD00272D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0708B04B20720DDB00272D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0708B05220720DDB00272D0A;
+			remoteInfo = SGControllerTransition;
+		};
+		0708B07720720DDD00272D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0708B04B20720DDB00272D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0708B05220720DDB00272D0A;
+			remoteInfo = SGControllerTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0708B05320720DDB00272D0A /* SGControllerTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGControllerTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0708B05620720DDB00272D0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0708B05720720DDB00272D0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0708B05920720DDB00272D0A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0708B05A20720DDB00272D0A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0708B05D20720DDB00272D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0708B05F20720DDD00272D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0708B06220720DDD00272D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0708B06420720DDD00272D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0708B06520720DDD00272D0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0708B06B20720DDD00272D0A /* SGControllerTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGControllerTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0708B06F20720DDD00272D0A /* SGControllerTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGControllerTransitionTests.m; sourceTree = "<group>"; };
+		0708B07120720DDD00272D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0708B07620720DDD00272D0A /* SGControllerTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGControllerTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0708B07A20720DDD00272D0A /* SGControllerTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGControllerTransitionUITests.m; sourceTree = "<group>"; };
+		0708B07C20720DDD00272D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0775D904207257E600D83727 /* avatar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpeg; sourceTree = "<group>"; };
+		0775D90A20734B7C00D83727 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0775D90B20734B7C00D83727 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		53BE9FD30B6A6FD0F8A601A7 /* Pods-SGControllerTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGControllerTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGControllerTransition/Pods-SGControllerTransition.debug.xcconfig"; sourceTree = "<group>"; };
+		B99DF0569A9449B19BC23EEA /* Pods-SGControllerTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGControllerTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGControllerTransition/Pods-SGControllerTransition.release.xcconfig"; sourceTree = "<group>"; };
+		EA1D6CDFC2BC3045CBEFF5A9 /* Pods_SGControllerTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGControllerTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0708B05020720DDB00272D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3DC2524EF180F01847F8FE /* Pods_SGControllerTransition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0708B06820720DDD00272D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0708B07320720DDD00272D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0708B04A20720DDB00272D0A = {
+			isa = PBXGroup;
+			children = (
+				0708B05520720DDB00272D0A /* SGControllerTransition */,
+				0708B06E20720DDD00272D0A /* SGControllerTransitionTests */,
+				0708B07920720DDD00272D0A /* SGControllerTransitionUITests */,
+				0708B05420720DDB00272D0A /* Products */,
+				7D2439EEA60B69922E3DD4E7 /* Pods */,
+				7E70038E0004F6FA64ACF93C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0708B05420720DDB00272D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0708B05320720DDB00272D0A /* SGControllerTransition.app */,
+				0708B06B20720DDD00272D0A /* SGControllerTransitionTests.xctest */,
+				0708B07620720DDD00272D0A /* SGControllerTransitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0708B05520720DDB00272D0A /* SGControllerTransition */ = {
+			isa = PBXGroup;
+			children = (
+				0708B05620720DDB00272D0A /* AppDelegate.h */,
+				0708B05720720DDB00272D0A /* AppDelegate.m */,
+				0708B05920720DDB00272D0A /* FirstViewController.h */,
+				0708B05A20720DDB00272D0A /* FirstViewController.m */,
+				0775D90A20734B7C00D83727 /* SecondViewController.h */,
+				0775D90B20734B7C00D83727 /* SecondViewController.m */,
+				0708B05C20720DDB00272D0A /* Main.storyboard */,
+				0708B05F20720DDD00272D0A /* Assets.xcassets */,
+				0708B06120720DDD00272D0A /* LaunchScreen.storyboard */,
+				0708B06420720DDD00272D0A /* Info.plist */,
+				0708B06520720DDD00272D0A /* main.m */,
+				0775D904207257E600D83727 /* avatar.jpeg */,
+			);
+			path = SGControllerTransition;
+			sourceTree = "<group>";
+		};
+		0708B06E20720DDD00272D0A /* SGControllerTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0708B06F20720DDD00272D0A /* SGControllerTransitionTests.m */,
+				0708B07120720DDD00272D0A /* Info.plist */,
+			);
+			path = SGControllerTransitionTests;
+			sourceTree = "<group>";
+		};
+		0708B07920720DDD00272D0A /* SGControllerTransitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0708B07A20720DDD00272D0A /* SGControllerTransitionUITests.m */,
+				0708B07C20720DDD00272D0A /* Info.plist */,
+			);
+			path = SGControllerTransitionUITests;
+			sourceTree = "<group>";
+		};
+		7D2439EEA60B69922E3DD4E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53BE9FD30B6A6FD0F8A601A7 /* Pods-SGControllerTransition.debug.xcconfig */,
+				B99DF0569A9449B19BC23EEA /* Pods-SGControllerTransition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E70038E0004F6FA64ACF93C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D6CDFC2BC3045CBEFF5A9 /* Pods_SGControllerTransition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0708B05220720DDB00272D0A /* SGControllerTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0708B07F20720DDD00272D0A /* Build configuration list for PBXNativeTarget "SGControllerTransition" */;
+			buildPhases = (
+				559029D828F299DEF742BF8F /* [CP] Check Pods Manifest.lock */,
+				0708B04F20720DDB00272D0A /* Sources */,
+				0708B05020720DDB00272D0A /* Frameworks */,
+				0708B05120720DDB00272D0A /* Resources */,
+				645FD54D8E91AE13888230A5 /* [CP] Embed Pods Frameworks */,
+				B3263925B979213CC8A67089 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGControllerTransition;
+			productName = SGControllerTransition;
+			productReference = 0708B05320720DDB00272D0A /* SGControllerTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0708B06A20720DDD00272D0A /* SGControllerTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0708B08220720DDD00272D0A /* Build configuration list for PBXNativeTarget "SGControllerTransitionTests" */;
+			buildPhases = (
+				0708B06720720DDD00272D0A /* Sources */,
+				0708B06820720DDD00272D0A /* Frameworks */,
+				0708B06920720DDD00272D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0708B06D20720DDD00272D0A /* PBXTargetDependency */,
+			);
+			name = SGControllerTransitionTests;
+			productName = SGControllerTransitionTests;
+			productReference = 0708B06B20720DDD00272D0A /* SGControllerTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0708B07520720DDD00272D0A /* SGControllerTransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0708B08520720DDD00272D0A /* Build configuration list for PBXNativeTarget "SGControllerTransitionUITests" */;
+			buildPhases = (
+				0708B07220720DDD00272D0A /* Sources */,
+				0708B07320720DDD00272D0A /* Frameworks */,
+				0708B07420720DDD00272D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0708B07820720DDD00272D0A /* PBXTargetDependency */,
+			);
+			name = SGControllerTransitionUITests;
+			productName = SGControllerTransitionUITests;
+			productReference = 0708B07620720DDD00272D0A /* SGControllerTransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0708B04B20720DDB00272D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sylphghost;
+				TargetAttributes = {
+					0708B05220720DDB00272D0A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0708B06A20720DDD00272D0A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0708B05220720DDB00272D0A;
+					};
+					0708B07520720DDD00272D0A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0708B05220720DDB00272D0A;
+					};
+				};
+			};
+			buildConfigurationList = 0708B04E20720DDB00272D0A /* Build configuration list for PBXProject "SGControllerTransition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0708B04A20720DDB00272D0A;
+			productRefGroup = 0708B05420720DDB00272D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0708B05220720DDB00272D0A /* SGControllerTransition */,
+				0708B06A20720DDD00272D0A /* SGControllerTransitionTests */,
+				0708B07520720DDD00272D0A /* SGControllerTransitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0708B05120720DDB00272D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0708B06320720DDD00272D0A /* LaunchScreen.storyboard in Resources */,
+				0708B06020720DDD00272D0A /* Assets.xcassets in Resources */,
+				0775D905207257E600D83727 /* avatar.jpeg in Resources */,
+				0708B05E20720DDB00272D0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0708B06920720DDD00272D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0708B07420720DDD00272D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		559029D828F299DEF742BF8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SGControllerTransition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		645FD54D8E91AE13888230A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SGControllerTransition/Pods-SGControllerTransition-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SGControllerTransition/SGControllerTransition.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SGControllerTransition.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGControllerTransition/Pods-SGControllerTransition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3263925B979213CC8A67089 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGControllerTransition/Pods-SGControllerTransition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0708B04F20720DDB00272D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0708B05B20720DDB00272D0A /* FirstViewController.m in Sources */,
+				0708B06620720DDD00272D0A /* main.m in Sources */,
+				0708B05820720DDB00272D0A /* AppDelegate.m in Sources */,
+				0775D90C20734B7C00D83727 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0708B06720720DDD00272D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0708B07020720DDD00272D0A /* SGControllerTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0708B07220720DDD00272D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0708B07B20720DDD00272D0A /* SGControllerTransitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0708B06D20720DDD00272D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0708B05220720DDB00272D0A /* SGControllerTransition */;
+			targetProxy = 0708B06C20720DDD00272D0A /* PBXContainerItemProxy */;
+		};
+		0708B07820720DDD00272D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0708B05220720DDB00272D0A /* SGControllerTransition */;
+			targetProxy = 0708B07720720DDD00272D0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0708B05C20720DDB00272D0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0708B05D20720DDB00272D0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0708B06120720DDD00272D0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0708B06220720DDD00272D0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0708B07D20720DDD00272D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0708B07E20720DDD00272D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0708B08020720DDD00272D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BE9FD30B6A6FD0F8A601A7 /* Pods-SGControllerTransition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGControllerTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGControllerTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0708B08120720DDD00272D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99DF0569A9449B19BC23EEA /* Pods-SGControllerTransition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGControllerTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGControllerTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0708B08320720DDD00272D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGControllerTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGSessionTask.SGControllerTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGControllerTransition.app/SGControllerTransition";
+			};
+			name = Debug;
+		};
+		0708B08420720DDD00272D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGControllerTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGSessionTask.SGControllerTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGControllerTransition.app/SGControllerTransition";
+			};
+			name = Release;
+		};
+		0708B08620720DDD00272D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGControllerTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGSessionTask.SGControllerTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SGControllerTransition;
+			};
+			name = Debug;
+		};
+		0708B08720720DDD00272D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGControllerTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGSessionTask.SGControllerTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SGControllerTransition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0708B04E20720DDB00272D0A /* Build configuration list for PBXProject "SGControllerTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0708B07D20720DDD00272D0A /* Debug */,
+				0708B07E20720DDD00272D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0708B07F20720DDD00272D0A /* Build configuration list for PBXNativeTarget "SGControllerTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0708B08020720DDD00272D0A /* Debug */,
+				0708B08120720DDD00272D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0708B08220720DDD00272D0A /* Build configuration list for PBXNativeTarget "SGControllerTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0708B08320720DDD00272D0A /* Debug */,
+				0708B08420720DDD00272D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0708B08520720DDD00272D0A /* Build configuration list for PBXNativeTarget "SGControllerTransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0708B08620720DDD00272D0A /* Debug */,
+				0708B08720720DDD00272D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0708B04B20720DDB00272D0A /* Project object */;
+}

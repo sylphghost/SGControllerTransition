@@ -1,0 +1,12 @@
+PODS:
+  - SGControllerTransition (1.0.0)
+
+DEPENDENCIES:
+  - SGControllerTransition (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  SGControllerTransition: 73a158e89252eb962d2287a4dc7fb0af16be4bf9
+
+PODFILE CHECKSUM: c1ea502db7ca13e353e3100414e1a812be5d547c
+
+COCOAPODS: 1.4.0
